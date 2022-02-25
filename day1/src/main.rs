@@ -1,9 +1,13 @@
-use itertools::Itertools;
 use aoc_io;
+use itertools::Itertools;
 
 fn main() {
-    let v: Vec<i32> = aoc_io::get_input().unwrap().iter().map(|s| s.parse::<i32>().unwrap()).collect();
-    
+    let v: Vec<i32> = aoc_io::get_input()
+        .unwrap()
+        .iter()
+        .map(|s| s.parse::<i32>().unwrap())
+        .collect();
+
     // part 1
     let n = v
         .iter()

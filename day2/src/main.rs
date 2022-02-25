@@ -41,7 +41,6 @@ fn main() {
         .map(|s| Command::from_str(s))
         .collect::<Result<Vec<Command>, ParseCommandError>>()
         .unwrap();
-        
 
     // part 1
     let (pos, depth) = commands.iter().fold((0, 0), |(p, d), cmd| match cmd {
