@@ -3,35 +3,14 @@
 version = 3
 
 [[package]]
-name = "day1"
+name = "day1a"
 version = "0.1.0"
 dependencies = [
  "io",
 ]
 
 [[package]]
-name = "day2"
-version = "0.1.0"
-dependencies = [
- "io",
-]
-
-[[package]]
-name = "day3"
-version = "0.1.0"
-dependencies = [
- "io",
-]
-
-[[package]]
-name = "day4"
-version = "0.1.0"
-dependencies = [
- "io",
-]
-
-[[package]]
-name = "day5"
+name = "day1b"
 version = "0.1.0"
 dependencies = [
  "io",
